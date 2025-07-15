@@ -1,4 +1,4 @@
-package com.geeks.oops1;
+package com.oops1;
 
 public class Mobile extends Product {
     private String camera;

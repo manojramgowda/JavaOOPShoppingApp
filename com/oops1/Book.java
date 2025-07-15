@@ -1,13 +1,13 @@
-package com.geeks.oops1;
+package com.oops1;
 
 public class Book  extends Product{
     private String author;
     private String genre;
     public String getAuthor() {
-        return authour;
+        return author;
     }
     public void setAuthor(String author) {
-        this.authour = author;
+        this.author = author;
     }
     public String getGenre() {
         return genre;
@@ -18,7 +18,7 @@ public class Book  extends Product{
     public void print() {
         //super ==> to access base class members
         super.print();
-        System.out.println("Author : "+authour);
+        System.out.println("Author : "+author);
         System.out.println("Genre : "+genre);
     }
 

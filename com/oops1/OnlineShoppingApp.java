@@ -1,6 +1,6 @@
-package com.geeks.oops1;
+package com.oops1;
 
-public class OnlineShopApp {
+public class OnlineShoppingApp {
     public static void main(String[] args) {
         /*
          * Assume these data pulled from the Database
@@ -8,7 +8,7 @@ public class OnlineShopApp {
         Book book=new Book();
         book.setProductId(101);
         book.setProductName("Java book");
-        book.setAuthour("James Goslin");
+        book.setAuthor("James Goslin");
         book.setGenre("Computers");
         book.setPrice(500);
 
